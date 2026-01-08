@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font-inter{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+  
+}
+header{
+    background-color: #FFFFFF;
+    padding: 16px;
+}
+  nav{
+width: 85%;
+max-width: 1360px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+  }
+  .swap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    list-style: none;
+   
+
+  }
+  .swap li a{
+     text-decoration: none;
+  }
+  .btn{
+    
+    display: flex;
+    justify-content: center;
+    /* padding: 12px 16px ; */
+    background-color: #469165;
+  }
+
+
