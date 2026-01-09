@@ -115,3 +115,103 @@ nav {
     text-align: center;
 
 }
+.std{
+    padding: 50px;
+}
+
+
+#Notes{
+    padding-top: 50px;
+}
+#Notes .Notes-container {
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+ 
+
+#Notes .Notes-container .Notes-box {
+    display: flex;
+    gap: 24px;
+}
+.Notes-box .Notes-card {
+    padding: 24px;
+    border: 1px solid;
+    max-width: 322px;
+    box-shadow: 0 6px 8px 0 #000000;
+}
+
+.Notes-card img {
+    max-width: 60px;
+    margin-bottom: 16px;
+    color: white;
+    background-color: red;
+}
+.Notes-card h3 {
+    font-size: 24px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.Notes-card p {
+     font-size: 16px;
+    line-height: 20px;
+}
+.name h5{
+    font-size: 16px;
+    color: #469165;
+}
+.name h2{
+    font-size: 48px;
+    color: #001931;
+}
+.name p{
+    font-size: 16px;
+    color: #627382;
+}
+.names{
+    width: 700px;
+height: 229px;
+
+
+flex-direction: column;
+
+
+gap: 16;
+
+}
+#brain{
+    /* border: 1px solid red; */
+    margin: 120px;
+    display: flex;
+}
+#brain .brain-content{
+    display: flex;
+    width: 85%;
+    max-width: 1360px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#brain .brain-content,.brain-heading{
+    padding-right: px;
+}
+#brain .brain-content h3 {
+    font-size: 16px;
+    color: #469165;
+    margin-bottom: 16px;
+}
+#brain .brain-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+#brain.brain-content p {
+    font-size: 16px;
+    color:#627382 ;
+    margin-bottom: 40px;
+}
+#brain .brain-content ul li {
+    font-size: 16px;
+    color: #627382;
+}
