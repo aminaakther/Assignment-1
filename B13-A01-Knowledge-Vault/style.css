@@ -1,43 +1,117 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.font-inter{
+
+.font-inter {
     font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  
-  
+    font-optical-sizing: auto;
+
+
 }
-header{
+
+header {
     background-color: #FFFFFF;
     padding: 16px;
 }
-  nav{
-width: 85%;
-max-width: 1360px;
-margin: 0 auto;
-display: flex;
-justify-content: space-between;
-  }
-  .swap{
+
+nav {
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.swap {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 32px;
     list-style: none;
-   
 
-  }
-  .swap li a{
-     text-decoration: none;
-  }
-  .btn{
-    
+
+}
+
+.swap li a {
+    text-decoration: none;
+}
+
+.btn button {
+
     display: flex;
     justify-content: center;
-    /* padding: 12px 16px ; */
+    padding: 16px 12px;
     background-color: #469165;
-  }
+    margin: 24px;
+    color: #FFFFFF;
+    border: none;
+
+}
 
 
+#banner {
+    position: relative;
+}
+
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    max-width: 800px;
+}
+
+.hello {
+    font-size: 16px;
+    color: #469165;
+}
+
+#banner h1 {
+    font-style: Bold;
+    font-size: 72px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#banner p {
+    font-style: Regular;
+    font-size: 18px;
+    text-align: center;
+}
+
+.btn1 {
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #469165;
+    padding: 16px 12px;
+    gap: 10px;
+}
+
+.btn-2 {
+    font-size: 16px;
+    color: #FFFFFF;
+
+    padding: 16px 12px;
+    gap: 10px;
+    width: 198px;
+    height: 52px;
+    background: none;
+}
+
+.student h1 {
+    font-size: 48px;
+    color: #001931;
+    text-align: center;
+    font-style: bold;
+}
+
+.student p {
+    font-size: 16px;
+    color: #627382;
+    text-align: center;
+
+}
